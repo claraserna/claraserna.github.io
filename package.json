@@ -1,8 +1,8 @@
 {
-  "name": "cs-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jelicich.github.io/cs-portfolio",
+  "homepage": "https://claraserna.github.io/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
