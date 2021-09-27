@@ -1,7 +1,7 @@
 [
   {
     "title": "portfolio.items.item1.title",
-    "img": "/static/item1.jpg",
+    "img": "item1.jpg",
     "description": "portfolio.items.item1.description",
     "content": [
       { "img": "virasoro/render_1.jpg", "description": "portfolio.items.item1.content.pic1" },
@@ -23,7 +23,7 @@
   },
   {
     "title": "portfolio.items.item2.title",
-    "img": "/static/item2.jpg",
+    "img": "item2.jpg",
     "description": "portfolio.items.item2.description",
     "content": [
       { "img": "mesa/render-1.jpg", "description": "portfolio.items.item2.content.pic1" },
@@ -40,7 +40,7 @@
   },
   {
     "title": "portfolio.items.item3.title",
-    "img": "/static/item3.jpg",
+    "img": "item3.jpg",
     "description": "portfolio.items.item3.description",
     "content": [
       { "img": "misc/comoda-1.jpg", "description": "portfolio.items.item3.content.pic1" },
