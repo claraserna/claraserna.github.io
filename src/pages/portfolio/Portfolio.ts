@@ -22,7 +22,7 @@ export default class Portfolio extends mixins(Animation) {
   async getProjects(): Promise<void> {
     try {
       const response = await fetch(
-        `${this.baseUrl}/static/portfolio-items.json`
+        `./${this.baseUrl}/static/portfolio-items.json`
       );
       this.items = await response.json();
     } catch (error) {

@@ -10,6 +10,7 @@ import { inject } from "vue";
 export default class About extends mixins(Animation) {
   msg!: string;
   baseUrl = inject("baseUrl");
+  rand = this.randomIntFromInterval(1000, 9999);
 
   mounted(): void {
     this.animateImage();
@@ -68,5 +69,10 @@ export default class About extends mixins(Animation) {
     };
 
     this.timeline.from(TARGET_SEL, animationOptions);
+  }
+
+  randomIntFromInterval(min: number, max: number): number {
+    // min and max included
+    return Math.floor(Math.random() * (max - min + 1) + min);
   }
 }
