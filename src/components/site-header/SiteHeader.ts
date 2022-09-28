@@ -25,6 +25,10 @@ export default class SiteHeader extends mixins(Animation) {
     return result;
   }
 
+  get showLanguageSelector(): boolean {
+    return !JSON.parse(process.env.VUE_APP_IS_MVP);
+  }
+
   mounted(): void {
     this.headerPositionAnimation();
     this.logoAnimation();

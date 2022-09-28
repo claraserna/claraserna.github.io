@@ -25,7 +25,8 @@
         @click="handleNav()"
       >{{ $t(`header.menu.${link}`) }}</a> 
     </nav>
-    <select 
+    <select
+      v-if="showLanguageSelector" 
       class="SiteHeader-langSelector"
       :class="{'SiteHeader-langSelector--mobile': isMobile()}" 
       v-model="$i18n.locale"
